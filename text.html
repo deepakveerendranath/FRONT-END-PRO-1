@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fill the following Details</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="fn">First name:</label></td>
+                <td><input type="text" id="fn" name="fn"></td>
+            </tr>
+            <tr>
+                <td><label for="ln">Last name:</label></td>
+                <td><input type="text" id="ln" name="ln"></td>
+            </tr>
+            <tr>
+                <td><label for="addr">Address:</label></td>
+                <td><textarea id="addr" name="address" rows="4" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="pwd">Password:</label></td>
+                <td><input type="password" id="pwd" name="pwd"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr> 
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label>Hobbies:</label></td>
+                <td>
+                    <input type="checkbox" id="hb1" name="hobbies" value="Reading">
+                    <label for="hb1">Reading</label>
+                    <input type="checkbox" id="hb2" name="hobbies" value="Writing">
+                    <label for="hb2">Writing</label>
+                    <input type="checkbox" id="hb3" name="hobbies" value="Exercise">
+                    <label for="hb3">Exercise</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="fc">Choose your favorite color:</label></td>
+                <td><input type="color" id="fc" name="fc"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="datamax">Enter a date before 1980-01-01:</label></td>
+                <td><input type="date" id="datamax" name="datamax" max="1979-12-31"></td>
+            </tr>
+            <tr>
+                <td><label for="datemin">Enter a date after 2000-01-01:</label></td>
+                <td><input type="date" id="datemin" name="datamin" min="2000-01-02"></td>
+            </tr>
+            <tr>
+                <td><label for="dnt">Date and Time:</label></td>
+                <td><input type="datetime-local" id="dnt" name="dnt"></td>
+            </tr>
+            <tr>
+                <td><label for="file">File Upload:</label></td>
+                <td><input type="file" id="file" name="file"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+            <tr>
+                <td> <label> Hidden Filed </label></td>
+                <td> <input type ="hidden" id="custid "name ="custid" value=</td>
+            </tr>
+            <tr> <td> <label>Months and year</label></td>
+                <td> <input type="month" id="monthyear" name="monthyear"></td>"
+            </tr>
+            <tr>
+                <td><label>Enter age:</label></td>
+                <td> <input type="number"name="age" min="18" max="10000"</td>
+            </tr>
+            <tr>
+                <td> Select your country :</td>
+                <td> 
+                    <select name="country" id="country">
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
